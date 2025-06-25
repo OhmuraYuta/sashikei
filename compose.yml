@@ -1,0 +1,9 @@
+services:
+  apache:
+    build: .
+    volumes:
+      - ./dir/:/usr/local/apache2/htdocs/
+    tty: true
+    stdin_open: true
+    ports:
+      - "80:80"
