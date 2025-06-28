@@ -8,4 +8,4 @@ down:
 	@docker compose down
 
 bash:
-	@docker compose exec linux bash
+	@docker compose exec apache bash
